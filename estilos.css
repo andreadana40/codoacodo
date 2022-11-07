@@ -43,7 +43,7 @@ header{
 }
 .contenedor{
     margin-bottom: 150px;
-    color: aliceblue;
+    color: rgb(241, 240, 255);
     text-align: center;
 }
 .contenedor-h2{
@@ -72,9 +72,118 @@ header{
     font-size: 4vmin;
     color: darkslateblue;
     padding: 60px 0;
+    background: rgb(226, 223, 222);
 }
+.btn{
+    padding: 2px 15px;
+    background: rgb(165, 42, 136);
+    border-radius: 30px;
+    color: rgb(46, 30, 10);
+    background-color: black;
+}
+/*galeria*/
+.contene{
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+}
+.portafolio{
+    background: rgb(23, 23, 24);
+    padding: 60px 0;
+}
+.portafolio .portafolio-texto{
+    text-align: center;
+    margin-bottom: 60px ;
+    color: rgb(243, 245, 248);
+    font: size 30px; ;
+}
+.portafolio .galeria{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.portafolio .galeria .fotos{
+    width: 30%;
+    margin-bottom: 20px;
+}
+.portafolio .galeria .fotos .img{
+    width: 100%;
+    height: 210%;
+    /*height: 410px;*/
+    border-radius: 5px;
+}
+/*contact*/
+.contacto-contenido{
+    height: 600px;
+    background-image: url('image/review.svg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+}
+.texto-contenido{
+    text-align: center;
+    color: rgb(167, 110, 10);
+    font-size: 25px;
+}
+.texto-contenido p{
+    font-size: 30px;
+    margin: 15px 0 30px 0;
+    color: rgb(137, 88, 25);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+}
+.contacto-contenido input[type="text"], .contacto input[type="email"],
+.contacto textarea{
+    width: 100%;
+    margin: 5px 0;
+    padding: 15px 20px;
+    background: none;
+    border-radius: 5px;
+    color: rgb(194, 105, 10);
+    border: 3px solid rgb(109, 63, 5);
+    font-family: 'lato';
+    font-weight: 300;
+} 
+.contacto textarea{
+    height: 150px;
+    max-height: 150px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 150px;
+}
+.derecha{
+    display: flex;
+    justify-content: flex-end;
+}
+.contacto-contenido input[type="submit"]{
+    display: block;
+    width: 100px;
+    margin: 10px 0;
+    padding: 10px 15px;
+    background: none;
+    border: 1px solid #904212;
+    border-radius: 5px;
+    color: rgb(168, 116, 10);
+    cursor: pointer;
+    float: right;
+}
+.contacto-contenido input[type="submit"]:hover{
+    background: #634a05;
+    color: rgb(222, 117, 12);
+}
+
+
+
+
 /*mobil*/
 @media only screen and (max-width: 750px){
+    .portafolio .galeria .fotos{
+        width: 400px;
+    }
     .section{
         width: 100px;
         margin-top: 0;
