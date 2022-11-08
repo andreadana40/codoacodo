@@ -71,9 +71,9 @@ header{
 .titulo{
     text-align: center;
     font-size: 4vmin;
-    color: rgb(166, 69, 129);
+    color: rgb(47, 24, 14);
     padding: 60px 0;
-    background-color: rgb(225, 220, 220);
+    background-color: rgb(237, 181, 125);
 }
 .btn{
     padding: 3px 15px;
