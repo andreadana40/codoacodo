@@ -76,11 +76,12 @@ header{
     background-color: rgb(225, 220, 220);
 }
 .btn{
-    padding: 2px 15px;
-    background: rgb(193, 119, 50);
-    border-radius: 30px;
+    padding: 3px 15px;
+    background: rgb(143, 78, 35);
+    border-radius: 9px;
     color: rgb(231, 238, 243);
-    font-weight: bold;
+    margin: 20px;
+    /*font-weight: bold;*/
 }
 /*galeria*/
 .contene{
@@ -189,7 +190,11 @@ form{
 .container{
     height: 600;
     padding: 60px 0;
-    background-color: gray;
+    background-image: url('image/MarsSunsetCut.svg');
+    background-size: cover;
+}
+.container a{
+    float: right;
 }
 .container h1{
     text-align: center;
@@ -215,11 +220,21 @@ form{
     background: #904212;
     border: 1px solid #904212;
     border-radius: 5px;
-    color: rgb(168, 116, 10);
+    color: red;
     cursor: pointer;
     float: inline-end;
+    animation-name: marte;
+    animation-duration: 10s;
+    position: relative;
+    overflow: hidden;
 
 }
+/*animacion*/
+@keyframes marte {
+    from {background-color: red;}
+    to {background-color: rgb(56, 32, 178);}
+}
+
 
 
 
@@ -250,7 +265,7 @@ form{
         width: 100%;
         height: 100vh;
         justify-content: center;
-        background: rgba(121, 49, 33, 0.753);
+        background: rgba(129, 51, 34, 0.961);
         margin-top: -900px;
         transition: all 0.5s ease;
     }
