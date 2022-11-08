@@ -19,10 +19,10 @@ const fetchApp = (planetas) => {
   const $submit = document.querySelector('#submit');
   const $results = document.querySelector('#results');
 
-  $form.addEventListener('submit', async function (event) { // 
+  $form.addEventListener('submit', async function (event) { 
 
 
-    event.preventDefault();//evita que se recargue la pagina
+    event.preventDefault();
 
     const { value } = $input;
 

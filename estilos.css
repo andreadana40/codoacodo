@@ -186,6 +186,41 @@ form{
     color: aliceblue;
     margin-top: 20px;
 }
+.container{
+    height: 600;
+    padding: 60px 0;
+    background-color: gray;
+}
+.container h1{
+    text-align: center;
+}
+.container input[type="text"] {
+    display: block;
+    width: 200px;
+    margin: 10px 0;
+    padding: 10px 15px;
+    background: #904212;
+    border: 1px solid #904212;
+    border-radius: 5px;
+    color: rgb(77, 53, 5);
+    cursor: pointer;
+    font: medium;
+
+}
+.container button{
+    display: block;
+    width: 100px;
+    margin: 10px 0;
+    padding: 10px 15px;
+    background: #904212;
+    border: 1px solid #904212;
+    border-radius: 5px;
+    color: rgb(168, 116, 10);
+    cursor: pointer;
+    float: inline-end;
+
+}
+
 
 
 
