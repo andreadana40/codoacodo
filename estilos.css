@@ -81,6 +81,8 @@ header{
     border-radius: 9px;
     color: rgb(231, 238, 243);
     margin: 20px;
+    border: 3px solid #302010;
+    
     /*font-weight: bold;*/
 }
 /*galeria*/
@@ -205,7 +207,7 @@ form{
     margin: 10px 0;
     padding: 10px 15px;
     background: #904212;
-    border: 1px solid #904212;
+    border: 3px solid #904212;
     border-radius: 5px;
     color: rgb(77, 53, 5);
     cursor: pointer;
@@ -218,7 +220,7 @@ form{
     margin: 10px 0;
     padding: 10px 15px;
     background: #904212;
-    border: 1px solid #904212;
+    border: 3px solid #cfad6a3d;
     border-radius: 5px;
     color: red;
     cursor: pointer;
@@ -234,10 +236,20 @@ form{
     from {background-color: red;}
     to {background-color: rgb(56, 32, 178);}
 }
-
-
-
-
+.sociales{
+    background-color: rgb(12, 12, 12);
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+    height: 600;
+    padding: 60px 0;
+}
+.sociales a{
+    margin-top: 100px;
+    color: #ab3c17;
+    font-size: 35px;
+    border: 10px solid #0c0c0c;
+}
 
 
 /*mobil*/
