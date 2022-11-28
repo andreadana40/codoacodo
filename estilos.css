@@ -5,7 +5,7 @@
 }
 a{
     text-decoration: none;
-    color: aliceblue;
+    /*color: aliceblue;*/
 }
 ul{
     text-decoration: none;
@@ -14,20 +14,32 @@ ul{
 body, html{
     overflow-x: hidden;
 }
-.pulsa{
+.navbar .pulsa a{
     color: rgb(220, 20, 20);
     text-decoration: underline;
     font-weight: bold;
+}
+.info{
+    padding: 8px 15px;
+    background-color: indianred;
+    border-radius: 30px;
+}
+.logo {
+    color: aliceblue;
 }
 .navbar{
     position: absolute;
     top: 0;
     left: 0;
     display: flex;
-    width: 100%;justify-content: space-between;
+    width: 100%;
+    justify-content: space-between;
     padding: 20px;
     background-color: rgb(14, 15, 15, 0.25);
-    color: rgb(193, 209, 224);
+   /*color: rgb(193, 209, 224);*/
+}
+.navbar a{
+    color: aliceblue;
 }
 .nav-links{
     display: flex;
@@ -43,12 +55,12 @@ header{
     background-size: cover;
     background-position: bottom;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
 }
 .contenedor{
     margin-bottom: 150px;
-    color: rgb(241, 240, 255);
+    color: white;
     text-align: center;
 }
 .contenedor-h2{
