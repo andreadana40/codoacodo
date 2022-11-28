@@ -61,8 +61,8 @@ header{
 }
 .boton{
     position: absolute;
-    top: 30px;
-    right: 30px;
+    top: 40px;
+    right: 2px;
     width: 40px;
     cursor: pointer;
     display: none;
@@ -206,9 +206,9 @@ form{
     background-size: cover;
     /*margin: 20px ;/*nuevo*/
     color: rgb(23, 22, 24);
-    border: 40px solid rgb(28, 27, 27);
+    border: 5px solid rgb(28, 27, 27);
 }
-.container h1{
+.container h3{
     text-align: center;
 }
 .container input[type="text"] {
